@@ -1,0 +1,19 @@
+{
+  "editor.formatOnSave": true,
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "editor.codeActionsOnSave": {
+    "source.organizeImports": true
+  },
+  "[json]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "typescript.preferences.importModuleSpecifier": "project-relative",
+  "files.exclude": {
+    "**/.git": true,
+    "**/.vscode": false,
+    "**/.angular": true,
+    "**/dist": false,
+    "**/tools": true,
+    "**/node_modules": false
+  }
+}
